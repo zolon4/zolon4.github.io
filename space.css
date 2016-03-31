@@ -16,7 +16,12 @@
  a:hover {
   text-decoration: none;
  }
-
+#links {
+ font-size: 15px;
+}
+p {
+ display: inline-block;
+}
 h1 {
  font-size:200px;
  font-family: 'Raleway', serif;
@@ -44,4 +49,10 @@ ul {
 li {
  display: inline-block;
  margin: 10px;
+}
+
+@media screen and (max-width:800px){
+ h1 {
+  font-size: 100px;
+ }
 }
