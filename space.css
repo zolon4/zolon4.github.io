@@ -1,8 +1,7 @@
- body {
+ .home-body {
  background: url(https://images.unsplash.com/photo-1437422061949-f6efbde0a471?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=be5aba2aabc25bfb9ccf5edd82a932a4) no-repeat center center fixed;
   margin: 20px 0px 0 0px;
   position:absolute;
-  height: 100vh;
   width:100%;
   z-index:100;
   left:0;
@@ -59,9 +58,23 @@ li {
  display: inline-block;
  margin: 10px;
 }
-
+.screenshot {
+ width: 900px;
+ margin: 0 auto;
+}
+h2 {
+ color: #333;
+ text-align: center;
+ font-size: 80px;
+}
+.card {
+ width: 90%;
+}
 @media screen and (max-width:800px){
  h1 {
-  font-size: 140px;
+  font-size: 120px;
+ }
+ h2 {
+  font-size: 50px;
  }
 }
