@@ -1,33 +1,39 @@
  .home-body {
- background: url(https://images.unsplash.com/photo-1437422061949-f6efbde0a471?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=be5aba2aabc25bfb9ccf5edd82a932a4) no-repeat center center fixed;
-  margin: 20px 0px 0 0px;
-  position:absolute;
+  background: no-repeat center center fixed;
+  background-color: #66C3FF;
   width:100%;
-  z-index:100;
-  left:0;
   background-size: cover;
-  margin-top: 50px;
+  height:70vh;
+  padding-top: 20px;
  }
 
  a {
   text-decoration: none;
   color: #416788;
  }
+
  a:hover {
   text-decoration: none;
  }
 #links {
  font-size: 15px;
+ color: white;
 }
+
 p {
+ text-align: center;
+ font-family: 'Open Sans', serif;
+ font-size: 20px;
  display: inline-block;
 }
+a {
+ color: white;
+}
+
 h1 {
- margin-top: -30px;
- font-size:210px;
- font-family: 'Raleway', serif;
- color: #d3d3d3;
- display: inline;
+ font-size: 60px;
+ font-family: 'Montserrat', serif;
+ color: white;
 }
 h3 {
  font-family: 'Raleway', serif;
@@ -36,7 +42,9 @@ h3 {
  color: #555;
 
 }
-
+.project-text {
+ text-align: center;
+}
 
 #home {
  width: 100%;
@@ -46,7 +54,8 @@ text-align: center;
 #me {
  border-radius: 50%;
  width: 200px;
- margin-bottom: 150px;
+ border: 4px solid white;
+ padding: 4px;
 }
 
 ul {
@@ -63,18 +72,37 @@ li {
  margin: 0 auto;
 }
 h2 {
- color: #333;
+ padding-top: 10px;
+ color: #9B9B9B;
+ font-size: 50px;
  text-align: center;
- font-size: 80px;
+ font-family: 'Montserrat', serif;
 }
 .card {
  width: 90%;
 }
+
+#daytripprr {
+ background-color: #eeeeee;
+ height: 100vh;
+}
+#ubercart {
+ height: 100vh;
+ background-color: #DCE1E9;
+}
+
+.sc {
+ width: 60%;
+ margin: 0 auto;
+}
 @media screen and (max-width:800px){
- h1 {
-  font-size: 120px;
+ .daytripprr {
+  width: 80%;
  }
- h2 {
-  font-size: 50px;
- }
+#daytripprr {
+ height: 50vh;
+}
+#ubercart {
+ height: 50vh;
+}
 }
