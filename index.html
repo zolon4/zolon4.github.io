@@ -1,42 +1,86 @@
 <html>
- <head>
+<head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link href='https://fonts.googleapis.com/css?family=Press+Start+2P|Open+Sans|Raleway|Cabin|Muli|Alegreya+Sans|PT+Sans|Montserrat' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Press+Start+2P|Pacifico|Open+Sans|Lato|Cabin|Raleway|Alegreya+Sans|PT+Sans|Montserrat|Amatic+SC' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-2.2.2.min.js"   integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="   crossorigin="anonymous"></script>
-
-  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="space.css">
   <title>zolon</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <div id="home">
+      <nav class="navbar navbar-light ">
+        <a class="navbar-brand" href="mailto:zw@zolon.space"><span class="fa fa-2x fa-envelope-o"></span></a>
+        <ul class="nav navbar-nav pull-xs-right">
 
- </head>
- <body>
- <section class="home-body">
-  <div id="home">
-   <a class="blog" href="http://zolon.space" target="_blank">
-   <img src="http://i.imgur.com/gnV8wTx.jpg" id="me">
-  </a>
-  <h1>zolon wilkins</h1>
-  <div id="links">
-   <p><a href="http://github.com/zolon4" target="_blank"<i class="fa fa-github fa-3x"></i></a></p>
-   <p><a href="mailto:zw@zolon.space"><i class="fa fa-envelope-o fa-3x"></i></a></p>
-   <p><a href="http://linkedin.com/in/zolon" target="_blank"<i class="fa fa-linkedin-square fa-3x"></i></a></p>
-   <p><a href="http://instagram.com/zo1on" target="_blank"<i class="fa fa-instagram fa-3x"></i></a></p>
- </div>
-</section>
-<section id="daytripprr">
- <a href="http://daytripprr.herokuapp.com/"><h2>daytripprr</h2></a>
-
- <img src="http://i.imgur.com/JogFwVg.png" class="sc img-fluid" />
- <p class="project-text">daytripprr lets you plan all the trips you never get around to taking</p>
-</section>
-<section id="ubercart">
- <a href="http://ubercart.co"><h2>UberCart</h2></a>
-
- <img src="http://i.imgur.com/AhnLVk5.png" class="sc img-fluid" />
-</div>
- </body>
+        </ul>
+      </nav>
+      <div class="row">
+        <div class="col-sm-6">
+          <section id="about-me">
+            <h1>Zolon Wilkins</h1>
+            <div class="text-container">
+              <p id="about">I am a 20 year old Web Developer from Austin, TX. See my work below! Follow me on <a target="_blank" href="http://instagram.com/zo1on">Instagram</a> and
+                <a href="http://twitter.com/zolonw" target="_blank">Twitter</a>.
+              </p>
+            </div>
+        </div>
+        <div class="col-sm-6">
+          <img src="http://i.imgur.com/gnV8wTx.jpg" class="me-img img-fluid" />
+        </div>
+      </div>
+      </section>
+      <section id="projects">
+       <h3>Projects</h3>
+       <div class="row">
+        <div class="col-sm-6">
+         <div class="card" id="ubercart">
+          <div class="card-block">
+           <h4 id="uc">UberCart</h4>
+           <img src="http://i.imgur.com/AhnLVk5.png" class="img-fluid" />
+           <p>UberCart is a golf cart management app built using Ruby on Rails</p>
+          </div>
+         </div>
+        </div>
+        <div class="col-sm-6">
+         <div class="card">
+          <div class="card-block">
+           <h4 id="dayt">daytripprr</h4>
+           <img src="http://i.imgur.com/JogFwVg.png" class="img-fluid" />
+           <p>Daytrippr is a node.js app that uses MongoDb for planning the trips you always talk about taking</p>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-sm-6">
+         <div class="card">
+          <div class="card-block">
+           <h4 id="work">trabajo</h4>
+            <img src="http://i.imgur.com/xfNDPR6.png" class="img-fluid" />
+            <p>trabajo is a modern take on work social media built using Ruby on Rails</p>
+          </div>
+         </div>
+        </div>
+        <div class="col-sm-6">
+         <div class="card">
+          <div class="card-block">
+           <h4 id="tc">tctct</h4>
+           <img src="http://i.imgur.com/yKPD1CK.png" class="img-fluid"/>
+           <p>tctct is a tic tac toe app built using HTML, CSS and jQuery</p>
+          </div>
+         </div>
+        </div>
+       </div>
+      </section>
+    </div>
+  </div>
+  </div>
+  <script src="bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
 
 </html>
