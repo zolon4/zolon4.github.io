@@ -77,13 +77,3 @@ p {
  font-family: 'Open Sans', serif;
  text-align: left;
 }
-
-
-@media screen and (max-width: 600px) {
- h1 {
-  text-align: center;
- }
- #about {
-  text-align: center;
- }
-}
