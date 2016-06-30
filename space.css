@@ -4,6 +4,8 @@
 body {
  width: 90%;
  margin: 0 auto;
+ background-image: url('http://i.imgur.com/agM88Ma.png');
+ background-repeat: repeat;
 }
 
 a {
@@ -28,7 +30,9 @@ a:hover {
 .fa-2x {
  padding: 0;
 }
-
+.card {
+  border: none;
+}
 h1 {
  font-family: 'Raleway', serif;
 }
@@ -38,6 +42,8 @@ h3 {
  color: #95A3A4;
 }
 
+
+
 h4 {
  font-family: 'Raleway', serif;
  text-align: center;
@@ -45,16 +51,19 @@ h4 {
 .card {
  width: 100%;
  min-height: 320px;
+ background-color: transparent;
 }
 #ud {
  font-family: 'Montserrat', serif;
  color: #EFD2CB;
 }
 
-#tc {
+#bot {
  font-family: 'Montserrat', serif;
- color: #4e2b99;
+ font-weight: 700;
+ color: #6d8383;
 }
+
  #dayt {
  font-family: 'Amatic SC',cursive;
  color: #50E3C2;
