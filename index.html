@@ -1,104 +1,98 @@
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
-  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-  <link rel="manifest" href="/manifest.json">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link href='https://fonts.googleapis.com/css?family=Pacifico|Open+Sans|Lato|Cabin|Maven+Pro|Raleway|Alegreya+Sans|Muli|Montserrat|Amatic+SC' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
-  <link rel="stylesheet" type="text/css" href="space.css">
-  <title>zolon</title>
-</head>
-<body>
-  <div class="container-fluid">
-    <div id="home">
-      <nav class="navbar navbar-light ">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-touch-icon-72x72.png">
+    <link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Pacifico|Open+Sans|Lato|Cabin|Maven+Pro|Raleway|Alegreya+Sans|Muli|Montserrat|Amatic+SC' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="space.css">
+    <title>zolon</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar navbar-light navbar-fixed-top" >
         <a class="navbar-brand" href="mailto:zw@zolon.space"><span class="fa fa-2x fa-envelope-o"></span></a>
         <a class="navbar-brand" href="http://twitter.com/zolonw" target="_blank"><span class="fa fa-2x fa-twitter"></span></a>
       </nav>
-      <div class="row">
-        <div class="col-sm-6">
+      <div id="home">
+        <div class="row">
+          <div class="col-sm-6">
           <section id="about-me">
             <h1>zolon wilkins</h1>
             <div class="text-container">
-              <p id="about">I am a Web Developer from Austin, TX. I currently work for <a href="http://bot.me" target="_blank">BOT.ME</a>.
+              <p id="about">I am a Web Developer from Austin, TX. I currently work for <a href="http://bot.me" id="botdotme" target="_blank">BOT.ME</a>
               </p>
             </div>
+          </div>
+          <div class="col-sm-6">
+            <img src="http://i.imgur.com/tzcbSA1.jpg" class="me-img img-fluid" />
+          </div>
         </div>
-        <div class="col-sm-6">
-          <img src="http://i.imgur.com/tzcbSA1.jpg" class="me-img img-fluid" />
-          <div id="img"></div>
-        </div>
-      </div>
       </section>
       <section id="projects">
-       <h3>Projects</h3>
-       <div class="row">
-        <div class="col-sm-6">
-         <div class="card" id="ubercart">
-          <div class="card-block">
-           <h4 id="uc">UberCart</h4>
-           <a href="http://ubercart.co" target="_blank">
-            <img src="http://i.imgur.com/8RYvIJ8.png" class="img-fluid" />
-           </a>
-           <p>UberCart is a golf cart management app built using Ruby on Rails. </p>
+        <h3>Projects</h3>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-block">
+                <h4 id="bot">DAT BOT for BOT.ME</h4>
+                  <a href="http://botdotme.herokuapp.com" target="_blank">
+                    <img src="http://i.imgur.com/cyDhCtO.png" class="img-fluid"/>
+                  </a>
+                  <p>dat bot is a chat bot that you can text</p>
+              </div>
+            </div>
           </div>
-         </div>
-        </div>
-        <div class="col-sm-6">
-         <div class="card">
-          <div class="card-block">
-           <h4 id="ud">updog</h4>
-           <a href="http://datboi.com" target="_blank">
-            <img src="http://i.imgur.com/5fyI75g.png" class="img-fluid" />
-          </a>
-           <p>updog is a wit.ai bot built in javascript</p>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-block">
+                <h4 id="ud">updog</h4>
+                <a href="http://datboi.com" target="_blank">
+                  <img src="http://i.imgur.com/5fyI75g.png" class="img-fluid" />
+                </a>
+                <p>updog is a wit.ai bot built in javascript</p>
+              </div>
+            </div>
           </div>
-         </div>
         </div>
-       </div>
-       <div class="row">
-        <div class="col-sm-6">
-         <div class="card">
-          <div class="card-block">
-           <h4 id="bot">DAT BOT for BOT.ME</h4>
-           <a href="http://botdotme.herokuapp.com" target="_blank">
-           <img src="http://i.imgur.com/cyDhCtO.png" class="img-fluid"/>
-          </a>
-           <p>dat bot is a chat bot that you can text</p>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card" id="ubercart">
+              <div class="card-block">
+                <h4 id="uc">UberCart</h4>
+                <a href="http://ubercart.co" target="_blank">
+                  <img src="http://i.imgur.com/8RYvIJ8.png" class="img-fluid" />
+                </a>
+                <p>UberCart is a golf cart management app built using Ruby on Rails. </p>
+              </div>
+            </div>
           </div>
-         </div>
-        </div>
-        <div class="col-sm-6">
-         <div class="card">
-          <div class="card-block">
-           <h4 id="dayt">daytripprr</h4>
-           <a href="http://daytripprr.herokuapp.com" target="_blank">
-            <img src="http://i.imgur.com/JogFwVg.png" class="img-fluid" />
-          </a>
-           <p>Daytrippr is a node.js app used for planning the road trips</p>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-block">
+                <h4 id="dayt">daytripprr</h4>
+                <a href="http://daytripprr.herokuapp.com" target="_blank">
+                  <img src="http://i.imgur.com/JogFwVg.png" class="img-fluid" />
+                </a>
+                <p>Daytrippr is a node.js app used for planning the road trips</p>
+              </div>
+            </div>
           </div>
-         </div>
         </div>
-       </div>
-
-
       </section>
+      </div>
     </div>
-  </div>
-
-  </div>
   <script src="bootstrap.min.js"></script>
   <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
