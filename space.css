@@ -121,3 +121,16 @@
  font-family: 'Amatic SC',cursive;
  color: #50E3C2;
   }
+
+  /* media queries */
+  @media screen and (max-width: 800px){
+    h1 {
+      font-size: 6em;
+    }
+  }
+
+  @media screen and (max-width: 600px){
+    h1 {
+      font-size: 5em;
+    }
+  }
