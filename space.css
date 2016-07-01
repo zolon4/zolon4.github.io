@@ -29,6 +29,11 @@
   h1,h3,h4  {
    font-family: 'Raleway', serif;
   }
+  h1 {
+    font-size: 7em;
+    font-family: 'Lato';
+    font-weight: 700;
+  }
 
   h3 {
    text-align: center;
@@ -68,17 +73,19 @@
     font-family: 'Montserrat', serif;
   }
   #about-me {
-   margin: 80px;
+   padding: 15px 50px;
+   letter-spacing: 1%;
   }
 
   .me-img {
-   width: 60%;
+   width: 80%;
    border-radius: 50%;
-   margin: 0 auto;
-   border: 3px black solid;
+   margin: 20px auto;
+   border: 6px #373a3c solid;
   }
   #about {
    font-family: 'Open Sans', serif;
+   font-size: 2em;
    text-align: left;
    color: black;
   }
