@@ -174,6 +174,8 @@
   #uc {
    color: white;
    font-family: 'Montserrat', serif;
+   font-size: .8em;
+   text-align: center;
   }
 
   #ubercart {
@@ -218,6 +220,6 @@
       font-size: 5em;
     }
     #uc {
-      font-size: .5em;
+      font-size: .8em;
     }
   }
