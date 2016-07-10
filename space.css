@@ -101,12 +101,32 @@
    min-height: 320px;
    border: none;
    border-radius: 4%;
-
+   padding: 0;
   }
 
-  #ud,#uc,#dayt, #bot {
-    font-size: 3em;
+  .project-img {
+    border-radius: 3%;
   }
+
+  .card-block {
+    padding: 0;
+  }
+  .card-img-overlay {
+    text-align: center;
+    background-color: rgba(0,0,0,.7);
+    border-radius: 3%;
+
+    margin: 0 auto;
+  }
+
+  .top {
+    width: 100%;
+  }
+
+  .bottom {
+    width: 100%;
+  }
+
   .updog {
     background-color: #EFD2CB;
   }
@@ -115,6 +135,18 @@
    font-family: 'Montserrat', serif;
    color: white;
    font-weight: 700;
+   font-size: 6em;
+   text-transform: uppercase;
+  }
+
+  #number {
+    font-family: 'Open Sans', serif;
+    color: #BE10E1;
+  }
+
+
+  .datbody {
+    margin: 30% auto;
   }
   .botme {
     background-color: #BE10E1;
@@ -123,12 +155,22 @@
     width: 60%;
     margin: 0 auto;
   }
+  .hidden {
+    visibility: hidden;
+
+  }
+
 
   #ud {
    font-family: 'Montserrat', serif;
    color: white;
-   font-weight: 700;
+   font-size: 1em;
   }
+  .updog-text, .daytrip-text, .bot-text, .uber-text {
+    color: white;
+  }
+
+
   #uc {
    color: white;
    font-family: 'Montserrat', serif;
@@ -141,20 +183,33 @@
   .daytrip {
     background-color: #50E3C2;
   }
-   #dayt {
+   #dt {
    font-family: 'Amatic SC',cursive;
    color: white;
     }
 
   .project-text {
     color: white;
-    font-size: 1.3em; 
+    font-size: 1.3em;
   }
 
   /* media queries */
+
+  @media screen and (max-width: 1000px){
+    h1 {
+      font-size: 6em;
+    }
+    #bot {
+      font-size: 4em;
+    }
+
+  }
   @media screen and (max-width: 800px){
     h1 {
       font-size: 6em;
+    }
+    #bot {
+      font-size: 3em;
     }
   }
 
