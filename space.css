@@ -10,6 +10,9 @@
    animation: animatedBackground 40s linear infinite;
 
   }
+  .img-fluid {
+    pointer-events: none;
+  }
 
   @keyframes animatedBackground {
   from { background-position: 0 0; }
