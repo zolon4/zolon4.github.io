@@ -6,7 +6,7 @@
   body {
    width: 90%;
    margin: 0 auto;
-   background: url('images/back.png') repeat center center fixed;
+   background: url('../images/back.png') repeat center center fixed;
    animation: animatedBackground 40s linear infinite;
 
   }
@@ -15,7 +15,7 @@
   }
 
   @keyframes animatedBackground {
-  from { background-position: 0 0; }
+  from { background-position: 0 0; };
   to { background-position: 100% 0; }
   }
 
@@ -93,6 +93,9 @@
    margin: 20px auto;
    border: 6px #373a3c solid;
   }
+
+
+
   #about {
    font-family: 'Open Sans', serif;
    font-size: 2em;
