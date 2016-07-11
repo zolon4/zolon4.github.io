@@ -47,6 +47,12 @@ $(function(){
     }
   )
 
+  $('#profile-image').hover(
+    function () {
+    $('.me-img').addClass('border')
+    }, function () {
+      $('.me-img').removeClass('border')
+  });
 
 
 
