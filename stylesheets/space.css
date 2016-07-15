@@ -174,6 +174,10 @@
     visibility: hidden;
 
   }
+  .datbot-logo {
+    width: 200px;
+    margin: 0 auto;
+  }
 
 
   #ud {
