@@ -6,7 +6,7 @@
   body {
    width: 90%;
    margin: 0 auto;
-   background: url('../images/back.png') repeat center center fixed;
+   background: url('../images/bak.jpg') repeat center center fixed;
    animation: animatedBackground 40s linear infinite;
 
   }
@@ -90,6 +90,7 @@
   .me-img {
    margin: 20px auto;
    width: 90%;
+   border-radius: 50%;
 
   }
 
