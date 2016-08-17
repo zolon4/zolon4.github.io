@@ -6,7 +6,7 @@
   body {
    width: 90%;
    margin: 0 auto;
-   background: url('../images/bak.jpg') repeat center center fixed;
+   background: url('../images/pattern.png') repeat center center fixed;
 
   }
   .img-fluid {
@@ -42,6 +42,7 @@
     font-size: 7em;
     font-family: 'Lato';
     font-weight: 700;
+    color: #17255A;
   }
 
   h3 {
@@ -100,7 +101,7 @@
    font-family: 'Open Sans', serif;
    font-size: 2em;
    text-align: left;
-   color: black;
+   color: #17255A;
   }
 
 /* projects */
