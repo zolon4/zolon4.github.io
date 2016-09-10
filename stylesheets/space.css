@@ -1,251 +1,67 @@
+  @font-face {
+    font-family: "Futura Bold";
+    src: url('../fonts/FuturaStd-Bold.otf')
+  }
+  @font-face {
+    font-family: "Futura Medium";
+    src: url('../fonts/FuturaStd-Medium.otf')
+  }
+
+
 /* general */
   .container-fluid {
    padding: 0;
   }
 
   body {
-   width: 90%;
    margin: 0 auto;
-   background: url('../images/pattern.png') repeat center center fixed;
-   background-attachment:fixed;
-
+   background-color: #A7CFE1;
+   border: 100px solid white;
+   height: 100vh;
+   overflow: hidden;
   }
-  .img-fluid {
-    pointer-events: none;
+  p,a {
+    color: white;
+    font-size: 1.875em;
+    font-family: "Futura Medium"
   }
-
-  @keyframes animatedBackground {
-  from { background-position: 0 0; };
-  to { background-position: 100% 0; }
-  }
-
-  a {
-   color: #006989;
-  }
-
   a:hover {
-   text-decoration: none;
-   color: #d3d3d3;
-  }
-  #home {
-    margin-top: 100px;
-  }
-
-  .img-fluid {
-   width: 100%;
-  }
-
-/* typography */
-  h1,h3,h4  {
-   font-family: 'Raleway', serif;
+    text-decoration: none;
+    color: #afd3e4;
   }
   h1 {
-    font-size: 7em;
-    font-family: 'Lato';
-    font-weight: 700;
-    color: #17255A;
-  }
-
-  h3 {
-   text-align: center;
-   color: #95A3A4;
-  }
-
-  h4 {
-   text-align: center;
-  }
-  p {
-   font-family: 'Open Sans', serif;
-   text-align: center;
-   color: #565554;
-  }
-
-/* nav */
-  .navbar {
-    margin: 20px 0 0 20px;
-  }
-  .nav-link, .nav-item {
-   color: #1A1A1A;
-   font-family: 'Cabin', serif;
-   margin-top: 3px;
-   padding: 0;
-   font-size: 1.1em;
-  }
-  .nav-link:hover {
-   color: #d3d3d3;
-  }
-
-  .fa-2x {
-   padding: 0;
-  }
-
-/* about me */
-  #botdotme {
-    font-family: 'Montserrat', serif;
-  }
-  #about-me {
-   padding: 15px 50px;
-   letter-spacing: 1%;
-  }
-
-  .me-img {
-   margin: 20px auto;
-   width: 90%;
-   border-radius: 50%;
-
-  }
-
-
-
-
-  #about {
-   font-family: 'Open Sans', serif;
-   font-size: 2em;
-   text-align: left;
-   color: #17255A;
-  }
-
-/* projects */
-  #projects {
-   margin-top: 10%;
-  }
-
-
-  .card {
-   width: 100%;
-   min-height: 320px;
-   border: none;
-   border-radius: 4%;
-   padding: 0;
-  }
-
-  .project-img {
-    border-radius: 3%;
-  }
-
-  .card-block {
-    padding: 0;
-  }
-  .card-img-overlay {
+    font-size: 10em;
     text-align: center;
-    background-color: rgba(0,0,0,.7);
-    border-radius: 3%;
-    margin: 0 auto;
-  }
-
-  .top {
-    width: 100%;
-  }
-
-  .bottom {
-    width: 100%;
-  }
-
-  .updog {
-    background-color: #EFD2CB;
-  }
-
-  #bot {
-   font-family: 'Montserrat', serif;
-   color: white;
-   font-weight: 700;
-   font-size: 4em;
-   text-transform: uppercase;
-  }
-
-  #number {
-    font-family: 'Open Sans', serif;
-    color: #BE10E1;
-  }
-
-
-  .datbody {
-    margin: 30% auto;
-  }
-  .botme {
-    background-color: #BE10E1;
-  }
-  .bot-img {
-    width: 60%;
-    margin: 0 auto;
-  }
-  .hidden {
-    visibility: hidden;
-
-  }
-  .datbot-logo {
-    width: 200px;
-    margin: 0 auto;
-  }
-
-
-  #ud {
-   font-family: 'Montserrat', serif;
-   color: white;
-   font-size: 4em;
-  }
-  .updog-text, .daytrip-text, .bot-text, .uber-text {
     color: white;
+    font-family: "Futura Bold";
+    text-transform: uppercase;
   }
 
-
-  #uc {
-   color: white;
-   font-family: 'Montserrat', serif;
-   font-size: 5em;
-   text-align: center;
+  .about {
+    margin-top: 15%;
   }
 
-  #ubercart {
-    background-color: #028090;
-  }
-
-  .daytrip {
-    background-color: #50E3C2;
-  }
-   #dt {
-   font-family: 'Amatic SC',cursive;
-   color: white;
-   font-size: 4em;
+  @media screen and (max-width: 850px) {
+    body {
+      border-width: 80px;
     }
-
-  .project-text {
-    color: white;
-    font-size: 1.3em;
-  }
-
-  .link {
-    color: white;
-    font-family: 'Open Sans', serif;
-    text-decoration: underline;
-  }
-
-  /* media queries */
-
-  @media screen and (max-width: 1000px){
     h1 {
       font-size: 6em;
     }
-    #bot {
+  }
+
+  @media screen and (max-width: 670px) {
+    body {
+      border-width: 40px;
+    }
+    .about {
+      margin-top: 50%;
+    }
+    h1 {
       font-size: 4em;
     }
+    a,p {
+      font-size: 1.2em
 
-  }
-  @media screen and (max-width: 800px){
-    h1 {
-      font-size: 6em;
     }
-    #bot {
-      font-size: 3em;
-    }
-  }
-
-  @media screen and (max-width: 600px){
-    h1 {
-      font-size: 5em;
-    }
-    #uc {
-      font-size: 3.5em;
-    }
-
   }
