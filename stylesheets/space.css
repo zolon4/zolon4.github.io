@@ -38,7 +38,7 @@
     text-transform: uppercase;
   }
   .about {
-    margin-top: 12%;
+    margin-top: 10%;
   }
 
   @media screen and (max-width: 850px) {
