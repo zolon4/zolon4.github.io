@@ -1,67 +1,72 @@
-  @font-face {
-    font-family: "Futura Bold";
-    src: url('../fonts/FuturaStd-Bold.otf')
-  }
-  @font-face {
-    font-family: "Futura Medium";
-    src: url('../fonts/FuturaStd-Medium.otf')
-  }
+@font-face {
+  font-family: "Futura Bold";
+  src: url('../fonts/FuturaStd-Bold.otf')
+}
+@font-face {
+  font-family: "Futura Medium";
+  src: url('../fonts/FuturaStd-Medium.otf')
+}
 
 
 /* general */
-  .container-fluid {
-   padding: 0;
-  }
+.container-fluid {
+ padding: 0;
+}
 
+body {
+ margin: 0 auto;
+ border: 40px solid white;
+ background: url("../images/pool.png") center center fixed;
+ background-size: cover;
+ height: 100vh;
+ overflow: hidden;
+}
+
+p,a {
+  color: white;
+  font-size: 30px;
+  font-family: "Futura Medium";
+  text-shadow: 6px 6px rgba(0,0,0,0.3);
+}
+
+a:hover {
+  text-decoration: none;
+  color: #afd3e4;
+}
+h1 {
+  font-size: 10em;
+  text-align: center;
+  color: white;
+  font-family: "Futura Bold";
+  text-transform: uppercase;
+  text-shadow: 3spx 3spx rgba(0,0,0,0.3);
+}
+.about {
+  margin-top: 10%;
+}
+
+@media screen and (max-width: 850px) {
+
+  h1 {
+    font-size: 6em;
+  }
+}
+
+@media screen and (max-width: 670px) {
+
+  .about {
+    margin-top: 50%;
+
+  }
   body {
-   margin: 0 auto;
-   background-color: #A7CFE1;
-   border: 40px solid white;
-   height: 100vh;
-   overflow: hidden;
-  }
-  p,a {
-    color: white;
-    font-size: 30px;
-    font-family: "Futura Medium"
-  }
-
-  a:hover {
-    text-decoration: none;
-    color: #afd3e4;
+    border-width: 35px;
   }
   h1 {
-    font-size: 10em;
-    text-align: center;
-    color: white;
-    font-family: "Futura Bold";
-    text-transform: uppercase;
+    font-size: 3.8em;
   }
-  .about {
-    margin-top: 10%;
+  a,p {
+    font-size: 1.2em;
+    text-shadow: 0px 0px white;
+
   }
-
-  @media screen and (max-width: 850px) {
-
-    h1 {
-      font-size: 6em;
-    }
-  }
-
-  @media screen and (max-width: 670px) {
-
-    .about {
-      margin-top: 50%;
-
-    }
-    body {
-      border-width: 35px;
-    }
-    h1 {
-      font-size: 3.8em;
-    }
-    a,p {
-      font-size: 1.2em
-
-    }
-  }
+}
