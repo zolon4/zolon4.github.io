@@ -334,6 +334,10 @@ $().ready(function () {
         target = slider.getTarget('next')
         slider.flexAnimate(target, true);
       })
+      $('.scroll-text').on('click', function(event, delta, deltaX, deltaY){
+        target = slider.getTarget('next')
+        slider.flexAnimate(target, true);
+      })
 
 
 

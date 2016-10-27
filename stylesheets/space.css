@@ -13,6 +13,7 @@ body {
   background-position: center center;
   background-size: cover; }
 
+
 .btn {
   background-color: #fc0000;
   border-radius: 10rem;
@@ -172,6 +173,9 @@ body {
   position: fixed;
   top: 90vh;
   left: 49%; }
+.scroll-text:hover {
+  cursor: pointer;
+}
 
 .display-none {
   display: none; }
@@ -224,6 +228,27 @@ body {
 #logo {
   margin-top: 15%;
   width: 50%; }
+  .card.card-video-1 .card-header p, .card.card-video .card-header p {
+      position: absolute;
+      top: 20%;
+      color: white;
+      font-weight: 700;
+      letter-spacing: 1px;
+      width: 200px;
+      margin-left: 30px;
+  }
+  .card .card-block {
+      padding: 0.5em;
+      margin: 20px 10px;
+    }
+  .card.card-video-1 .card-footer {
+      background-color: black;
+      color: white;
+      padding: 0.7rem 2rem;
+      font-size: 1.2rem;
+      text-align: center;
+      font-style: italic;
+  }
 
 .beacon {
   position: absolute;
