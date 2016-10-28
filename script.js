@@ -33,7 +33,7 @@ var content = [
     card: {
       video: "http://d3ab9omd0xmpv4.cloudfront.net/attachments/media/5895/processed/clip2.baseline.mp4?1477460024884",
       title: "A modern approach to treating bpd",
-      body: "Did you know that <span class='bold'>Mindfulness Meditation</span> can be an effective self care approach to ease some symptoms associated with Borderline Personality Disorder.<br> While professional treatment and support is always recommended for thsoe suffering from BPD, studies have found that many suffering from BPD seek self care approaches to managing their symptoms and Midnfulness Meditation seems to be a great place to start",
+      body: "Did you know that <span class='bold'>Mindfulness Meditation</span> can be an effective self care approach to ease some symptoms associated with Borderline Personality Disorder?<br> While professional treatment and support is always recommended for thsoe suffering from BPD, studies have found that many suffering from BPD seek self care approaches to managing their symptoms and Midnfulness Meditation seems to be a great place to start",
       footer: "You never know what you're capable of until you find out what you're capable of.",
       author: "- D.Chance",
       position: { x: "15%", y: "20%" },
@@ -57,7 +57,7 @@ var content = [
     card: {
       video: "http://d3ab9omd0xmpv4.cloudfront.net/attachments/media/5897/processed/clip4.baseline.mp4?1477460122071",
       title: "San Francisco Population   805,235 </br /># of adults w/ serious mental illness    28,183 <br/># of psychiatrists    616",
-      body: "A staggering 3.5% of the San Francisco population suffers with serious mental illness. With only 616 psychiatrists practicing in the city today, increasing awareness for the pervasive mental health problems facing the city is paramount ot cultivating an increased care provider network adequate to support the large population of mentalll ill San Franciscans. <br /> <br /> <span class='source'>cbcf.org</span>",
+      body: "A staggering 3.5% of the San Francisco population suffers with serious mental illness. With only 616 psychiatrists practicing in the city today, increasing awareness for the pervasive mental health problems facing the city is paramount to cultivating an increased care provider network adequate to support the large population of mentally ill San Franciscans. <br /> <br /> <span class='source'>cbcf.org</span>",
       position: { x: "30%", y: "30%" },
       class: "card-video-3"
     }
@@ -97,6 +97,17 @@ $().ready(function () {
   if ($(window).width() < 768) {
     $('#begin').addClass("display-none")
   }
+
+
+  $($(window).resize(function(){
+    if ($(window).width() < 768) {
+      $('#begin').addClass("display-none")
+    } else {
+      $('#begin').removeClass("display-none")
+
+    }
+
+  }))
 
 
 
@@ -179,6 +190,7 @@ $().ready(function () {
 
       if (page == 1) {
         $('.brain').transition({ opacity: 0, duration: 1000 })
+        $('.video').pause();
       } else if (page == 2) {
         $('.brain').slice(1).transition({ opacity: 0, duration: 1000 })
         $('.brain').slice(0,1).transition({ opacity: 1, duration: 1000 })
@@ -334,6 +346,7 @@ $().ready(function () {
         target = slider.getTarget('next')
         slider.flexAnimate(target, true);
       })
+
       $('.scroll-text').on('click', function(event, delta, deltaX, deltaY){
         target = slider.getTarget('next')
         slider.flexAnimate(target, true);

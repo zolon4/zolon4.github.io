@@ -9,7 +9,7 @@ html, body {
   overflow: hidden; }
 
 body {
-  background-image: url("../images/chance_bg_black.jpg");
+  background-image: url("https://d3ab9omd0xmpv4.cloudfront.net/attachments/media/5910/processed/chance_bg_black.medium.jpg?1477621332508");
   background-position: center center;
   background-size: cover; }
 
@@ -122,7 +122,7 @@ body {
     color: #fc0000; }
 
 .slider-container {
-  background-image: url("../images/brain_nobg-01.png");
+  background-image: url("http://i.imgur.com/A7vwlQq.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat; }
@@ -137,19 +137,19 @@ body {
     bottom: 0;
     opacity: 0; }
     .slider-container .brain.brain-1 {
-      background-image: url("../images/brain_nobg-02.png"); }
+      background-image: url("http://i.imgur.com/B2Ua8Nc.png"); }
     .slider-container .brain.brain-2 {
-      background-image: url("../images/brain_nobg-03.png"); }
+      background-image: url("http://i.imgur.com/MkuzIo5.png"); }
     .slider-container .brain.brain-3 {
-      background-image: url("../images/brain_nobg-04.png"); }
+      background-image: url("http://i.imgur.com/pfj4W9a.png"); }
     .slider-container .brain.brain-4 {
-      background-image: url("../images/brain_nobg-05.png"); }
+      background-image: url("http://i.imgur.com/aC3j1y2.png"); }
     .slider-container .brain.brain-5 {
-      background-image: url("../images/brain_nobg-06.png"); }
+      background-image: url("http://i.imgur.com/5Mt28Vg.png"); }
     .slider-container .brain.brain-6 {
-      background-image: url("../images/brain_nobg-07.png"); }
+      background-image: url("http://i.imgur.com/z96g51Z.png"); }
     .slider-container .brain.brain-7 {
-      background-image: url("../images/brain_nobg-08.png"); }
+      background-image: url("http://i.imgur.com/unHScAS.png"); }
 
 .slides .content {
   position: relative;
@@ -168,11 +168,13 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
   font-size: 1.125rem;
+  z-index:999;
   color: white;
   text-align: center;
   position: fixed;
   top: 90vh;
   left: 49%; }
+
 .scroll-text:hover {
   cursor: pointer;
 }
