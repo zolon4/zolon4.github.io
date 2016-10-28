@@ -352,6 +352,11 @@ $().ready(function () {
         slider.flexAnimate(target, true);
       })
 
+      $('.scroll-text').mouseover(function(event, delta, deltaX, deltaY){
+        target = slider.getTarget('next')
+        slider.flexAnimate(target, true);
+      })
+
 
 
     }
