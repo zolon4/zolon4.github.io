@@ -129,7 +129,7 @@ $().ready(function () {
 	//setup slider.
 	var slider = $('.flexslider').flexslider({
 		animation: "slide",
-    animationLoop: false,
+    animationLoop: true,
 		controlNav: true,
 		slideshow: false,
 		direction: "vertical",
@@ -197,7 +197,6 @@ $().ready(function () {
 
       if (page == 1) {
         $('.brain').transition({ opacity: 0, duration: 1000 })
-        $('.video').pause();
       } else if (page == 2) {
         $('.brain').slice(1).transition({ opacity: 0, duration: 1000 })
         $('.brain').slice(0,1).transition({ opacity: 1, duration: 1000 })
@@ -311,13 +310,16 @@ $().ready(function () {
         $('.btn-next').html('Start Over')
       } else if (page == 1) {
         $('.btn-next').html('Begin')
+        $('.next').html('Next')
+
       }
       else {
         $('.scroll-text').removeClass('display-none')
         $('.hulu-button').removeClass('display-none')
         $('.btn-next').html('Next')
-
+        $('.next').html('Next')
       }
+
 
 		},
     start: function(slider) {
@@ -358,12 +360,11 @@ $().ready(function () {
 
       $('.scroll-text').on('click', function(event, delta, deltaX, deltaY){
         if (delta == 9) {
-          target = slider.getTarget(9)
+          target = slider.getTarget('prev')
           slider.flexAnimate(target, true);
         } else {
           target = slider.getTarget('next')
           slider.flexAnimate(target, true);
-
         }
 
       })
