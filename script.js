@@ -7,10 +7,11 @@ var content = [
     },
     card: {
       title: "Folie à deux",
-      body: "&ldquo;The essential feature of a shared psychotic disorder (folie à deux) is a delusion that develops in an otherwise healthy individual who is involved in a close relationship with another person (sometimes termed the &ldquo;inducer&rdquo; or &ldquo;the primary case&rdquo;) who already has a psychotic disorder with prominent delusions...&rdquo; -- Kenn Nunn, Chance",
+      body: '"&ldquo;The essential feature of a <span class="red">shared psychotic disorder</span> (folie à deux)...<br><br> is a <span class="bold">delusion that develops in an otherwise healthy individual who is involved in a close relationship with another person</span> (sometimes termed the &ldquo;inducer&rdquo; or &ldquo;the primary case&rdquo;) <span class="bold">who already has a psychotic disorder with prominent delusions...</span>" <br><br><span class="source-1"> -- Kenn Nunn, Chance</span>',
       position: { x: "50%", y: "30%" },
-      video: "http://d3ab9omd0xmpv4.cloudfront.net/attachments/media/5898/processed/clip1.baseline.mp4?1477460805111",
+      video: "http://d3ab9omd0xmpv4.cloudfront.net/attachments/media/5962/processed/clip1.webm?1477965658519",
       class: "card-video",
+      bodyClass: "card-video-quote",
       id: "video1"
     }
   },
@@ -19,10 +20,11 @@ var content = [
       position: { x: "40%", y: "20%" }
     },
     card: {
-      title: "Borderline Personality Disorder",
-      body: "Experts don't know exactly what causes borderline personality disorder. Problems with chemicals in the brain that help control moods may play a role. It also seems to run in families.<br /><br />Often, people who get it faced some kind of childhood trauma such as abuse, neglect, or the death of a parent. The risk is higher when people who had childhood trauma also have problems coping with anxiety or stress.<br /><br /><span class='source web-md'>webmd.com</span>",
-      position: { x: "55%", y: "36%" },
-      class: "card-text-skinny",
+      title: "Borderline<br> Personality Disorder",
+      video: "http://d3ab9omd0xmpv4.cloudfront.net/attachments/media/5963/processed/clip2.webm?1477967392591",
+      body: "Experts don't know exactly what causes borderline personality disorder. Problems with <span class='bold'>chemicals in the brain that help control moods</span> may play a role. It also seems to run in families.<br /><br />Often, people who get it faced some kind of <span class='bold'>childhood trauma such as abuse, neglect, or the death of a parent</span>. The risk is higher when people who had childhood trauma also have problems coping with anxiety or stress.<br /><br /><span class='source web-md'><a style='color: #acacac;' href='http://www.webmd.com/mental-health/tc/borderline-personality-disorder-topic-overview'>webmd.com</a></span>",
+      position: { x: "52%", y: "36%" },
+      class: "card-video-0 card-video",
       id: "video2"
     }
   },
@@ -45,8 +47,8 @@ var content = [
       position: { x: "50%", y: "80%" }
     },
     card: {
-      video: "http://d3ab9omd0xmpv4.cloudfront.net/attachments/media/5893/processed/clip3.baseline.mp4?1477459989241",
-      body: "<span class='bold'>Borderline personality disorder is considered one of the most <span class='red'>severe and troubling</span> personality disorders</span><br /><br /> Research shows that those diagnosed w/ BPD experience less empathy than those without the disorder. People with more BPD traits have a more difficult time understanding and/or predicting how others feel. <br /><br /><span class='source'>Source</span>",
+      video: "http://d3ab9omd0xmpv4.cloudfront.net/attachments/media/5964/processed/clip4.webm?1477969316707",
+      body: '"<span class="bold">Borderline personality disorder is considered one of the most <span class="red">severe and troubling</span> personality disorders."</span><br /><br /> Research shows that those diagnosed with BPD experience less empathy than those without the disorder. People with more BPD traits have a more difficult time understanding and/or predicting how others feel. <br /><br /><span class="source web-md"><a style="color: #acacac;" href="http://news.uga.edu">Source</a></span>',
       position: { x: "57%", y: "15%" },
       class: "card-video-2"
     }
@@ -55,9 +57,9 @@ var content = [
       position: { x: "70%", y: "25%" }
     },
     card: {
-      video: "http://d3ab9omd0xmpv4.cloudfront.net/attachments/media/5897/processed/clip4.baseline.mp4?1477460122071",
-      title: "San Francisco Population   805,235 </br /># of adults w/ serious mental illness    28,183 <br/># of psychiatrists    616",
-      body: "A staggering 3.5% of the San Francisco population suffers with serious mental illness. With only 616 psychiatrists practicing in the city today, increasing awareness for the pervasive mental health problems facing the city is paramount to cultivating an increased care provider network adequate to support the large population of mentally ill San Franciscans. <br /> <br /> <span class='source'>cbcf.org</span>",
+      video: "http://d3ab9omd0xmpv4.cloudfront.net/attachments/media/5965/processed/clip5.webm?1477970463615",
+      title: "Dr. Eldon Chance",
+      body: "Chance is a neuropsychiatrist and a man primed for spectacular ruin. He's feeling like a cog in a broken system and spends his days with those mutilated by life. He's observing people at a distance instead of treating them and it's destroying his soul. His private life is no better. <br> <br>And then one day in walks Jaclyn Blackstone who appears to be suffering from dissociative identity disorder. She is an entrancing enigma—one Chance cannot let go.   ",
       position: { x: "30%", y: "30%" },
       class: "card-video-3"
     }
@@ -66,9 +68,9 @@ var content = [
       position: { x: "75%", y: "75%" }
     },
     card: {
-      video: "http://d3ab9omd0xmpv4.cloudfront.net/attachments/media/5894/processed/clip5.baseline.mp4?1477459994365",
-      title: "Disrupting the brain",
-      body: "A traumatic brain injury (TBI) is defined as a blow or jolt to the head or penetrating head injury that disrupts the function of the brain. Not all blows or jolts to the head result in a TBI. <br /><br />In the U.S., an estimated 1.7 million people sustain a traumatic brain injury each year.<br><ul><li><span class='bold'>52,000</span> die</li><li><span class='bold'>275,000</span> are hospitalized</li><li><span class='bold'>1,365</span> million are treated and released from an emergency department",
+      video: "http://d3ab9omd0xmpv4.cloudfront.net/attachments/media/5966/processed/clip6.webm?1477971271939",
+      title: "Jaclyn Blackstone",
+      body: "Referred to Dr. Chance for complaints of memory loss and blackouts, Jaclyn is married to an abusive homicide detective and claims to have a second personality, Jackie Black, who she says will not allow her to leave her husband. Jaclyn is a chameleonic, charismatic and resourceful, the kind of woman who can make sane me do insane things.",
       position: { x: "20%", y: "20%" },
       class: "card-video-4"
     }
@@ -187,6 +189,11 @@ $().ready(function () {
         }
       }
 
+      if (page != 9) {
+        $('#scroll-arrow').removeClass('flipped')
+      } else {
+        $('#scroll-arrow').addClass('flipped')
+      }
 
       if (page == 1) {
         $('.brain').transition({ opacity: 0, duration: 1000 })
@@ -298,8 +305,9 @@ $().ready(function () {
       }
 
       if (page == 9) {
-        $('.scroll-text').addClass('display-none')
         $('.hulu-button').addClass('display-none')
+        $('.next').html('Back to the top')
+
         $('.btn-next').html('Start Over')
       } else if (page == 1) {
         $('.btn-next').html('Begin')
@@ -347,17 +355,34 @@ $().ready(function () {
         slider.flexAnimate(target, true);
       })
 
+
       $('.scroll-text').on('click', function(event, delta, deltaX, deltaY){
-        target = slider.getTarget('next')
-        slider.flexAnimate(target, true);
+        if (delta == 9) {
+          target = slider.getTarget(9)
+          slider.flexAnimate(target, true);
+        } else {
+          target = slider.getTarget('next')
+          slider.flexAnimate(target, true);
+
+        }
+
       })
 
-      $('.scroll-text').mouseover(function(event, delta, deltaX, deltaY){
-        target = slider.getTarget('next')
-        slider.flexAnimate(target, true);
-      })
 
-
+      $(document).keydown(function(e){
+        switch(e.which) {
+          case 40:
+            target = slider.getTarget('next')
+            slider.flexAnimate(target, true);
+          break;
+          case 38:
+            target = slider.getTarget('prev')
+            slider.flexAnimate(target, false);
+          break;
+          default: return; // allow other keys to be handled
+        }
+        e.preventDefault();
+      });
 
     }
 	});
