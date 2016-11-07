@@ -76,4 +76,33 @@ a:hover {
           font-size: 14px;
           letter-spacing: 2px; }
 
+@media (max-width: 800px) {
+  body {
+    overflow-x: hidden; }
+
+  .top {
+    margin-left: 20px; }
+    .top h1 {
+      font-size: 150px; }
+
+  .bottom {
+    margin-top: 0px; } }
+@media (max-width: 700px) {
+  .top h1 {
+    font-size: 125px; } }
+@media (max-width: 600px) {
+  .top h1 {
+    font-size: 100px; } }
+@media (max-width: 500px) {
+  .top h1 {
+    font-size: 80px; } }
+@media (max-width: 400px) {
+  .top h1 {
+    font-size: 70px; } }
+@media (max-width: 330px) {
+  .top h1 {
+    font-size: 50px; }
+  .top h4 {
+    font-size: 20px; } }
+
 /*# sourceMappingURL=space.css.map */
