@@ -1,0 +1,83 @@
+@font-face
+  font-family: "Sofia Pro"
+  src: url('../fonts/sofia-pro-regular.otf')
+
+@font-face
+  font-family: "Sofia Black"
+  src: url('../fonts/sofia-pro-black.otf')
+
+@font-face
+  font-family: "Sofia Bold"
+  src: url('../fonts/sofia-pro-bold.otf')
+
+@font-face
+  font-family: "Sofia Light"
+  src: url('../fonts/sofia-pro-light.otf')
+
+@font-face
+  font-family: "Sofia Medium"
+  src: url('../fonts/sofia-pro-medium.otf')
+
+@font-face
+  font-family: "High Tide"
+  src: url('../fonts/High Tide.ttf')
+
+$blue: #0000FF
+$green: #00D2A3
+body
+  height: 100%
+  background: url("../images/squiggles.png")
+  background-size: 100%
+
+a:hover
+  text-decoration: none
+.top
+  display: flex
+  align-items: center
+  height: 80vh
+  width: 100%
+  h1
+    font-size: 200px
+    font-family: "High Tide"
+    letter-spacing: 30px
+    color: #0000FF
+    text-shadow: 8px 8px #FFFF00
+  h3
+    color: #00D2A3
+    letter-spacing: 12px
+    font-size: 24px
+    text-transform: uppercase
+    font-family: "Sofia Bold"
+    display: inline-block
+.bottom
+  margin-top: 60px
+  height: 100%
+  p
+    font-size: 26px
+    font-family: "Sofia Pro"
+    letter-spacing: 4px
+    a
+      text-decoration: none
+    a:hover
+      color: $green
+  .buzz-word
+    color: $blue
+    font-family: "Sofia Bold"
+  a
+    color: #000000
+    .card
+      padding: 0px
+      border: none
+      img
+        width: 100%
+      .text
+        padding: 5px
+        h4
+          font-family: "Sofia Bold"
+          text-transform: uppercase
+          font-size: 24px
+          letter-spacing: 2px
+        p
+          font-family: "Sofia Medium"
+          font-size: 14px
+          letter-spacing: 2px
