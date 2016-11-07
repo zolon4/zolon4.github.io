@@ -29,12 +29,8 @@ a:hover {
   align-items: center;
   height: 80vh;
   width: 100%; }
-  .top h1 {
-    font-size: 200px;
-    font-family: "High Tide";
-    letter-spacing: 30px;
-    color: #0000FF;
-    text-shadow: 8px 8px #FFFF00; }
+  .top img {
+    margin-bottom: 5%; }
   .top h3 {
     color: #00D2A3;
     letter-spacing: 12px;
@@ -82,26 +78,10 @@ a:hover {
 
   .top {
     margin-left: 20px; }
-    .top h1 {
-      font-size: 150px; }
 
   .bottom {
     margin-top: 0px; } }
-@media (max-width: 700px) {
-  .top h1 {
-    font-size: 125px; } }
-@media (max-width: 600px) {
-  .top h1 {
-    font-size: 100px; } }
-@media (max-width: 500px) {
-  .top h1 {
-    font-size: 80px; } }
-@media (max-width: 400px) {
-  .top h1 {
-    font-size: 70px; } }
 @media (max-width: 330px) {
-  .top h1 {
-    font-size: 50px; }
   .top h4 {
     font-size: 20px; } }
 
