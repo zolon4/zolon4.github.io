@@ -16,6 +16,11 @@
 @font-face {
   font-family: "High Tide";
   src: url("../fonts/High Tide.ttf"); }
+html {
+  overflow-x: hidden;
+  overflow: hidden;
+  overflow-y: scroll; }
+
 body {
   height: 100%;
   background: url("../images/squiggles.png");
@@ -27,6 +32,7 @@ a:hover {
 .top {
   display: flex;
   align-items: center;
+  overflow-x: hidden;
   height: 80vh;
   width: 100%; }
   .top img {
@@ -73,12 +79,6 @@ a:hover {
           letter-spacing: 2px; }
 
 @media (max-width: 800px) {
-  body {
-    overflow-x: hidden; }
-
-  .top {
-    margin-left: 20px; }
-
   .bottom {
     margin-top: 0px; } }
 @media (max-width: 330px) {
