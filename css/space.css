@@ -29,17 +29,21 @@ body {
   text-align: center;
   justify-content: center;
   margin: 0 auto; }
-  .center .text h1 {
-    font-family: "Futura Medium";
-    font-size: 71px;
-    color: #DDFFF7;
-    letter-spacing: 6px;
-    text-shadow: 7px 7px 0 rgba(170, 68, 101, 0.5); }
-  .center .text h2 {
-    font-family: "Futura Medium";
-    font-size: 48px;
-    color: #FFFFFF;
-    letter-spacing: 5.99px;
-    text-shadow: 3px 4px 0 rgba(147, 225, 216, 0.5); }
+
+a:hover {
+  color: #DDFFF7; }
+
+.text h1 {
+  font-family: "Futura Medium";
+  font-size: 71px;
+  color: #DDFFF7;
+  letter-spacing: 6px;
+  text-shadow: 7px 7px 0 rgba(170, 68, 101, 0.5); }
+.text h2 {
+  font-family: "Futura Medium";
+  font-size: 48px;
+  color: #FFFFFF;
+  letter-spacing: 5.99px;
+  text-shadow: 3px 4px 0 rgba(147, 225, 216, 0.5); }
 
 /*# sourceMappingURL=space.css.map */
