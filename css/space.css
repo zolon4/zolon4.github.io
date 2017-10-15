@@ -34,8 +34,12 @@ h3 {
   text-decoration: underline;
   text-decoration-style: wavy; }
 
-.img-fluid {
-  width: 500px; }
+.img-circle {
+  width: 500px;
+  border-radius: 50%; }
+
+.img-circle:hover {
+  border: 10px solid #0000FF; }
 
 .contact a {
   color: black; }
