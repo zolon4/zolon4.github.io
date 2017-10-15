@@ -7,43 +7,41 @@
 @font-face {
   font-family: "Futura Medium";
   src: url("../fonts/FuturaStd-Medium.otf"); }
-html {
-  overflow-x: hidden;
-  overflow: hidden;
-  overflow-y: scroll; }
-
+@font-face {
+  font-family: "Sofia Pro";
+  src: url("../fonts/sofia-pro-regular.otf"); }
 body {
-  background-color: #FFA69E; }
+  font-family: "Sofia Pro";
+  background: url("../images/squiggles.png");
+  background-size: 100%;
+  text-align: center;
+  height: 100vh;
+  overflow-x: hidden;
+  margin-top: 60px; }
 
-.navbar-brand {
-  font-family: "Futura Bold";
-  font-size: 24px;
-  color: #DDFFF7;
-  float: right; }
+h1 {
+  font-size: 50px; }
 
 .center {
+  justify-content: center;
   display: flex;
   align-items: center;
   width: 100%;
-  height: 80vh;
-  text-align: center;
-  justify-content: center;
-  margin: 0 auto; }
+  height: 60%; }
 
-a:hover {
-  color: #DDFFF7; }
+h3 {
+  padding-bottom: 1px;
+  text-decoration: underline;
+  text-decoration-style: wavy; }
 
-.text h1 {
-  font-family: "Futura Medium";
-  font-size: 71px;
-  color: #DDFFF7;
-  letter-spacing: 6px;
-  text-shadow: 7px 7px 0 rgba(170, 68, 101, 0.5); }
-.text h2 {
-  font-family: "Futura Medium";
-  font-size: 48px;
-  color: #FFFFFF;
-  letter-spacing: 5.99px;
-  text-shadow: 3px 4px 0 rgba(147, 225, 216, 0.5); }
+.img-fluid {
+  width: 500px; }
+
+.contact a {
+  color: black; }
+.contact a:hover {
+  color: #0000FF;
+  text-decoration: underline;
+  text-decoration-style: wavy; }
 
 /*# sourceMappingURL=space.css.map */
