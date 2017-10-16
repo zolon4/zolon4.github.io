@@ -47,6 +47,7 @@ h3 {
 .contact a:hover {
   color: #0000FF;
   text-decoration: underline;
-  text-decoration-style: wavy; }
+  text-decoration-style: wavy;
+  -webkit-text-decoration-style: wavy; }
 
 /*# sourceMappingURL=space.css.map */
