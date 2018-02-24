@@ -3,8 +3,8 @@
   src: url("../fonts/FuturaStd-Bold.otf")
 
 @font-face
-  font-family: "Futura Book"
-  src: url("../fonts/FuturaStd-Book.otf")
+  font-family: "Futura Bold"
+  src: url("../fonts/FuturaStd-Bold.otf")
 
 @font-face
   font-family: "Futura Medium"
@@ -14,47 +14,45 @@
   font-family: "Sofia Pro"
   src: url("../fonts/sofia-pro-regular.otf")
 
+@font-face
+  font-family: "Aileron-Bold"
+  src: url("../fonts/Aileron-Bold.ttf")
+
+@font-face
+  font-family: "Aileron-Heavy"
+  src: url("../fonts/Aileron-Heavy.ttf")
+
 $blue: #0000FF
 $green: #00D2A3
 $whitish: #DDFFF7
 
 body
-  font-family: "Sofia Pro"
-  background: url("../images/squiggles.png")
-  background-size: 100%
-  text-align: center
+  font-family: 'Futura Medium', sans-serif
   height: 100vh
   overflow-x: hidden
-  margin-top: 60px
+  background-color: #194EC4
+  padding: 20px
 
 h1
-  font-size: 50px
+  font-family: "Futura Bold", sans-serif
+  font-size: 60px
+  color: white
 
-.center
-  justify-content: center
-  display: flex
-  align-items: center
-  width: 100%
-  height: 60%
-
-h3
-  padding-bottom: 1px
-  text-decoration: underline
-  text-decoration-style: wavy
-  -webkit-text-decoration-style: wavy
-
-.img-circle
-  width: 500px
-  border-radius: 50%
-
-.img-circle:hover
-  border: 10px solid $blue
-
-.contact
+.wrapper
+  height: 100%
+  color: white
+  text-align: center
   a
-    color: black
-  a:hover
-    color: $blue
-    text-decoration: underline
-    text-decoration-style: wavy
-    -webkit-text-decoration-style: wavy
+    color: white
+    letter-spacing: 2px
+  p
+    font-size: 20px
+    margin-bottom: 0px
+.contact
+  text-align: center
+  width: 100%
+  color: white
+  font-size: 20px
+  a
+    color: white
+    letter-spacing: 2px
