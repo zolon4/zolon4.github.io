@@ -9,9 +9,7 @@ $whitish: #DDFFF7
 body
   font-family: 'Museo Sans', sans-serif
   height: 100vh
-  overflow-x: hidden
   background-color: #002E2C
-  padding: 20px
   color: #EFDEDE
 
 .wrapper
@@ -19,12 +17,15 @@ body
 
 h1
   transform: rotate(-7deg)
-  font-size: 288px
+  font-size: 3em
 
 a
   text-decoration: underline
   text-decoration-style: wavy
   color: #EFDEDE
+
+.content
+  max-width: 100%
 
 .contact
   text-align: center
@@ -34,20 +35,31 @@ h2
 
 @media (max-width: 500px)
   h2
-    font-size: 40px
+    font-size: 35px
+  .content
+    max-width: 100%
+    overflow-x: hidden
 
 @media (min-width: 250px)
   h1
-    font-size: 160px
+    font-size: 150px
 
 @media (min-width: 375px)
   h1
-    font-size: 175px
+    font-size: 160px
+    position: relative
+    right: 30px
 
+@media (min-width: 400px)
+  h1
+    font-size: 160px
+    position: relative
+    right: 10px
 @media (min-width: 576px)
   h1
     font-size: 205px
-
+    position: relative
+    right: 30px
 
 @media (min-width: 768px)
   h1
