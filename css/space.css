@@ -1,51 +1,46 @@
 @font-face {
-  font-family: "Futura Bold";
-  src: url("../fonts/FuturaStd-Bold.otf"); }
-@font-face {
-  font-family: "Futura Bold";
-  src: url("../fonts/FuturaStd-Bold.otf"); }
-@font-face {
-  font-family: "Futura Medium";
-  src: url("../fonts/FuturaStd-Medium.otf"); }
-@font-face {
-  font-family: "Sofia Pro";
-  src: url("../fonts/sofia-pro-regular.otf"); }
-@font-face {
-  font-family: "Aileron-Bold";
-  src: url("../fonts/Aileron-Bold.ttf"); }
-@font-face {
-  font-family: "Aileron-Heavy";
-  src: url("../fonts/Aileron-Heavy.ttf"); }
+  font-family: "Museo Sans";
+  src: url("../fonts/museo.ttf"); }
 body {
-  font-family: "Futura Medium", sans-serif;
+  font-family: "Museo Sans", sans-serif;
   height: 100vh;
   overflow-x: hidden;
-  background-color: #194EC4;
-  padding: 20px; }
-
-h1 {
-  font-family: "Futura Bold", sans-serif;
-  font-size: 60px;
-  color: white; }
+  background-color: #002E2C;
+  padding: 20px;
+  color: #EFDEDE; }
 
 .wrapper {
-  height: 100%;
-  color: white;
-  text-align: center; }
-  .wrapper a {
-    color: white;
-    letter-spacing: 2px; }
-  .wrapper p {
-    font-size: 20px;
-    margin-bottom: 0px; }
+  height: 80vh; }
+
+h1 {
+  transform: rotate(-7deg);
+  font-size: 288px; }
+
+a {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  color: #EFDEDE; }
 
 .contact {
-  text-align: center;
-  width: 100%;
-  color: white;
-  font-size: 20px; }
-  .contact a {
-    color: white;
-    letter-spacing: 2px; }
+  text-align: center; }
+
+h2 {
+  font-size: 50px; }
+
+@media (max-width: 500px) {
+  h2 {
+    font-size: 40px; } }
+@media (min-width: 376px) {
+  h1 {
+    font-size: 175px; } }
+@media (min-width: 576px) {
+  h1 {
+    font-size: 205px; } }
+@media (min-width: 768px) {
+  h1 {
+    font-size: 225px; } }
+@media (min-width: 992px) {
+  h1 {
+    font-size: 250px; } }
 
 /*# sourceMappingURL=space.css.map */
