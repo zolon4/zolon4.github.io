@@ -4,24 +4,24 @@
 body {
   font-family: "Museo Sans", sans-serif;
   height: 100vh;
-  background-color: #00004D;
+  background-color: #FF0000;
   color: #EFDEDE; }
 
 .wrapper {
   height: 80vh; }
 
-h1 {
-  transform: rotate(-7deg);
-  font-size: 3em; }
+.header:hover {
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1); }
 
-a {
-  color: #EFDEDE; }
-
-.content {
-  max-width: 100%; }
-
-.contact {
+.contact-wrapper {
   text-align: center; }
+  .contact-wrapper .contact {
+    font-size: 50px;
+    color: #EFDEDE; }
+    .contact-wrapper .contact:hover {
+      text-decoration: none;
+      color: #FFFF00; }
 
 h2 {
   font-size: 50px; }
@@ -33,29 +33,5 @@ h2 {
   .content {
     max-width: 100%;
     overflow-x: hidden; } }
-@media (min-width: 250px) {
-  h1 {
-    font-size: 150px; } }
-@media (min-width: 375px) {
-  h1 {
-    font-size: 160px;
-    position: relative;
-    right: 30px; } }
-@media (min-width: 400px) {
-  h1 {
-    font-size: 160px;
-    position: relative;
-    right: 10px; } }
-@media (min-width: 576px) {
-  h1 {
-    font-size: 205px;
-    position: relative;
-    right: 30px; } }
-@media (min-width: 768px) {
-  h1 {
-    font-size: 225px; } }
-@media (min-width: 992px) {
-  h1 {
-    font-size: 250px; } }
 
 /*# sourceMappingURL=space.css.map */
