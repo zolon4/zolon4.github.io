@@ -3,28 +3,46 @@
   src: url("../fonts/museo.ttf"); }
 body {
   font-family: "Museo Sans", sans-serif;
-  height: 100vh;
-  background-color: #FF0000;
-  color: #EFDEDE; }
-
-.wrapper {
-  height: 80vh; }
-
-.header:hover {
-  -webkit-transform: scaleY(-1);
-  transform: scaleY(-1); }
-
-.contact-wrapper {
-  text-align: center; }
-  .contact-wrapper .contact {
-    font-size: 50px;
-    color: #EFDEDE; }
-    .contact-wrapper .contact:hover {
-      text-decoration: none;
-      color: #FFFF00; }
-
-h2 {
-  font-size: 50px; }
+  background-color: red; }
+  body h1 {
+    font-size: 2.5rem; }
+  body .header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 400px; }
+    body .header .content {
+      text-align: center; }
+      body .header .content .header-img {
+        width: 80%;
+        max-width: 100%; }
+        body .header .content .header-img:hover {
+          -webkit-transform: scaleY(-1);
+          transform: scaleY(-1); }
+    body .header .contact {
+      text-align: center; }
+      body .header .contact-link {
+        font-size: 50px;
+        color: white;
+        text-decoration: none; }
+        body .header .contact-link:hover {
+          text-decoration: none;
+          color: yellow; }
+  body .photos {
+    margin-top: 50px;
+    text-align: center; }
+    body .photos h1 {
+      color: yellow; }
+    body .photos .photo {
+      margin: 25px auto; }
+      body .photos .photo h3 {
+        margin-top: 25px;
+        color: white;
+        font-size: 1.75rem; }
+      body .photos .photo img {
+        margin: 10px auto;
+        max-width: 600px;
+        width: 75%; }
 
 @media (max-width: 500px) {
   h2 {
